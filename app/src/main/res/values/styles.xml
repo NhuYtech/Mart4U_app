@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme chính của ứng dụng -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Ẩn thanh trạng thái -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- Ẩn thanh tiêu đề (action bar) nếu không cần -->
+        <item name="windowNoTitle">true</item>
+        <!-- Tùy chỉnh thêm nếu cần -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

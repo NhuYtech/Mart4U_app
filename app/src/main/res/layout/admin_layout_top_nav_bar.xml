@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FA003F"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:minHeight="56dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_letter_logo"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Tên trang quản trị -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Quản Trị"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp" />
+
+    <!-- Nút đăng xuất -->
+    <LinearLayout
+        android:id="@+id/ll_logout_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/logout_button_background"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginStart="8dp">
+
+        <!-- Icon đăng xuất -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_logout"
+            app:tint="#FFFFFF"
+            android:layout_gravity="center_vertical" />
+
+        <!-- Văn bản "Đăng Xuất" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng Xuất"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="4dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>
