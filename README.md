@@ -90,9 +90,9 @@
 - 👩‍💻 Sinh viên: **Huỳnh Như Ý** – HTTT2211015  
 - 📞 Hotline: 0982 147 252 
 - 📧 Email: hnyhttt2211015@student.ctuet.edu.vn  
-- 🔗 GitHub: [https://github.com/NhuYsea](https://github.com/NhuYsea)
+- 🔗 GitHub: [https://github.com/NhuYsea](https://github.com/NhuYtech)
 
 ---
 
 💻 **Source code hiện đang được phát triển và cập nhật tại**:  
-🔗 [https://github.com/NhuYsea/Mart4U_app](https://github.com/NhuYsea/Mart4U_app)
+🔗 [https://github.com/NhuYsea/Mart4U_app](https://github.com/NhuYtech/Mart4U_app)
